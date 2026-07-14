@@ -2,6 +2,8 @@
 
 `bb` is a keyboard-first bead board for [Beads](https://github.com/steveyegge/beads). It turns a Beads workspace into a fast terminal board, tree, relationship view, activity stream, and agent-facing MCP server.
 
+![bb moving from the status board into relationships and agent-shared views](docs/demo.gif)
+
 ## Install
 
 You need:
@@ -159,6 +161,12 @@ go vet ./...
 go test ./...
 go test -race ./...
 go build ./...
+```
+
+Regenerate the README animation from the deterministic fixture with Charm VHS:
+
+```sh
+./scripts/demo.sh
 ```
 
 The live Dolt integration test is opt-in because it needs a real Beads workspace:
