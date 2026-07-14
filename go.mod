@@ -12,7 +12,7 @@ require (
 	github.com/charmbracelet/x/ansi v0.11.6
 	github.com/fsnotify/fsnotify v1.10.1
 	github.com/go-sql-driver/mysql v1.10.0
-	github.com/mark3labs/mcp-go v0.55.1
+	github.com/mark3labs/mcp-go v0.56.0
 )
 
 require (
